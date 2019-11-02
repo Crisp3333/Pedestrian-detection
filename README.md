@@ -6,7 +6,7 @@ Using the [Raspberry Pi Smart Video Car Kit](https://www.sunfounder.com/smart-vi
 
 ## Getting Started
 
-You need to have some knowledge of the python programming language. You need to purchase the robot Raspberry Pi Car Kit V2.0 by SunFounder, along with a Raspbperry Pi and a micro sd/tf card.  The robot drivers and hardware controlled by Python code. The RCNN algorithm I wrote `regional_cnn.py` is not optimal , and therefore needs to be improved. Check out my [RCNN algorithm](https://github.com/Crisp3333/cnn-algorithm) for a better implementation of RCNN. This is just for educational purposes for an introduction to machine learning and robotics.
+You need to have some knowledge of the python programming language. You need to purchase the robot Raspberry Pi Car Kit V2.0 by SunFounder, along with a Raspbperry Pi and a micro sd/tf card.  The robot drivers and hardware controlled by Python code. The RCNN algorithm I wrote `regional_cnn.py` is not optimal , and therefore needs to be improved. Check out my [CNN algorithm](https://github.com/Crisp3333/cnn-algorithm) for a better implementation of RCNN. This is just for educational purposes for an introduction to machine learning and robotics.
 
 Two algorithm are involved. Regional Convolutional Neural Network (RCNN) Tensorflow was the utility used for image segmentation implementation through its graph package, and the motion detection algorithm `motiondetect.py` code can be found [here]( [http://www.steinm.com/blog/motion-detection-webcam-python-opencv-differential-images/])
 
